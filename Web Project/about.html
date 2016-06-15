@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>about </title>
+<link href="layout.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" type="text/css" href="favicon.jpg" />
+
+<div id="navbar">
+<ul >
+	<li><img src="favicon.jpg" width="286" height="67" > </li>
+  <li><a href="Home.html">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" 		onclick="myFunction()">Menu</a>
+    <div class="dropdown-content" id="myDropdown">
+      <ul>
+<li><a href="hire.html">Hire </a></li>
+<li><a href="bookings.html">Manage bookings</a> </li>
+<li><a href="contacts.html">Contact us</a> </li>
+<li><a href="about.html"> About</a></li>
+    </div>
+
+</ul>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</div>
+
+<div id="header">
+<h1 border="5"><img src="matwana.jpg"></h1>
+</div>
+
+<div id="nav">
+<ul>
+	<li><a href="">Login</a></li>
+	<li><a href="registration.html">Register</a></li>
+</ul>
+</div>
+
+</div>
+<div id="about">
+	<p><center>we are the dopest matatu hiring company located in kenya.
+	we promote our local industry in kenya in order to acquire the best out of ourselfes.
+	we offer unique and costly services which will make you come back for more.</center></p> 
+  <div id="aboutleft">
+  you can find us at our offices in town at jubilee house off kenyatta avenue.
+  &lt;</div>
+  <div id="aboutright">
+  welcome once more..its our pride to serve you tommorrow.
+  </div
+></div>
+<div id="footer">
+find us on:<br/>
+ facebook @matwanakenya<br/>
+ Instagram @matwana.ke<br/>
+ Twitter @matwanake<br/>
+
+</section>
+</div>
+</body>
+</html>

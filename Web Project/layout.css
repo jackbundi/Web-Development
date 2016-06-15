@@ -1,0 +1,250 @@
+
+#header {
+    background-color:black;
+    color:#FC3;
+    text-align:center;
+    padding:5px;
+	background-image:url(city1.jpg);
+	margin:0;
+	height:380px;
+	width:auto;
+	
+}
+#about{
+	text-decoration:blink;
+	background:url(city.jpg);
+	background-size:cover;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:yellow;
+	padding-bottom:50px;
+}
+#aboutleft{
+	margin-left:11px;
+	margin-top:30px;
+	height:280px;
+	float:left;
+	color:#0F3;
+}
+#aboutright{
+	margin-right:11px;
+	margin-top:30px;
+	height:300px;
+	float:right;
+	color:#F00;
+}
+.content{
+	margin:-10px;
+}
+#header img{
+	width:890px;
+	height:300px;
+
+
+}
+table{
+	float:left;
+}
+#search form{
+	float:right;
+
+}
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:orange;
+	position:fixed;
+	width:100%;
+	margin:-10px;
+}
+
+#navbar li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:#fc3;
+	color:white;
+}
+
+.dropdli.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+a{
+	font-family:"Calibri Light";
+	color:"black";
+	
+
+}
+img {
+  height: 200px;
+  width: 300px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+img:hover {
+  width: 350px;
+  height: 250px;
+}
+
+#nav {
+    line-height:30px;
+    list-style-type:none;
+	margin:0;
+	padding:0;
+    height:100%;
+    width:200px;
+    float:left;
+     
+	font-family:"Calibri Light";
+	text-align:left;
+}
+
+#nav  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	width:160px;
+	height:100%;
+}
+#nav li{
+
+}
+#nav li a {
+    display: block;
+    color: white;
+    text-align: left;
+    
+    text-decoration: none;
+}
+#nav li a:hover {
+	    background-color:white;
+		color:#333;
+	
+}
+#ads {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:100%;
+    width:100px;
+    float:right;
+    padding:5px; 
+	font-family:"Calibri Light";
+}
+#navbar{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+
+}
+#navbar img{
+	width:250px;
+	height:45px;
+}
+
+}
+#navbar li {
+    float: left;
+}
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navbar  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333;
+}
+#navbar li a:hover {
+    background-color:#FC3;
+	color:#000;
+}
+#section {
+    width:1000px;
+    float:left;
+    padding:10px; 
+}
+#sections {
+    width:1000px;
+    float:right;
+    padding:10px; 
+}
+#footer {
+    background-color:#333;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+.flat-table {
+  display: block;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 115%;
+  overflow: auto;
+  width: 30%;
+  background-color:#CCC;
+}
+#item-detail{
+	color:black;
+	font:"Calibri Light";
+	font-family:"Calibri Light";
+	
+}
+  
+  th {
+    background-color: rgb(112, 196, 105);
+    color:#9C9;
+    font-weight: normal;
+    padding: 20px 30px;
+    text-align: center;
+  
+  td {
+    background-color: rgb(238, 238, 238);
+    color: rgb(111, 111, 111);
+    padding: 20px 30px;
+  }
+
+
+

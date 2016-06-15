@@ -1,0 +1,74 @@
+;<htmml>
+<head>
+<link href="login.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" type="text/css" href="favicon.jpg" />
+</head>
+<body>
+<div class="content">
+
+
+<div id="navbar">
+<ul >
+	<li><img src="favicon.jpg" width="286" height="67" > </li>
+  <li><a href="Home.html">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" 		onclick="myFunction()">Menu</a>
+    <div class="dropdown-content" id="myDropdown">
+      <ul>
+<li><a href="hire.html">Hire </a></li>
+<li><a href="bookings.html">Manage bookings</a> </li>
+<li><a href="contacts.html">Contact us</a> </li>
+<li><a href="about.html"> About</a></li>
+    </div>
+
+</ul>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</div>
+
+<div id="header">
+<h1 border="5"><img src="matwana.jpg"></h1>
+</div>
+
+<div id="nav">
+<ul>
+	<li><a href="">Login</a></li>
+	<li><a href="registration.html">Register</a></li>
+    <li><a href="passwordreset.html">Forgot Password</a></li>
+</ul>
+</div>
+<div id="contentleft">
+
+</div>
+<div id="contentright">
+
+</div>
+<div id="footer">
+find us on:<br/>
+ facebook @matwanakenya<br/>
+ Instagram @matwana.ke<br/>
+ Twitter @matwanake<br/>
+
+</section>
+</div>
+</body>
+</html>
